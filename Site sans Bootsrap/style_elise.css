@@ -1,0 +1,199 @@
+/*Début CSS pour la page team*/
+
+/*début test media qwery sur body*/
+
+body {
+  background: rgb(12, 12, 12);
+  margin: 0%;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: pink;
+    font-size: 15px;
+  }
+}
+
+/*fin test media qwery sur body*/
+
+/*début test media qwery sur container*/
+
+.container-t {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5px;
+  margin-bottom: -1px;
+  flex-wrap: wrap;
+  background-color: rgb(34, 33, 33);
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .container-t {
+    background: pink;
+    font-size: 2px;
+  }
+}
+
+/*fin test media qwery sur container*/
+
+.container-t div {
+  padding: 30px 20px 30px 20px;
+  margin-top: -10px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presentation {
+  background: #3d3b3b;
+  border-radius: 10%;
+  padding: 20px 30px 20px 30px;
+  font-size: 15px;
+  border-left: red solid 4px;
+}
+
+@media (max-width: 800px) {
+    .presentation {
+      font-size: 12px;
+    }
+  }
+
+.nom {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.nom:hover {
+  filter: drop-shadow(5px 5px 3px rgb(255, 0, 0));
+}
+
+@media (max-width: 600px) {
+    .nom {
+      font-size: 20px;
+    }
+  }
+
+.metier {
+  color: white;
+  font-style: italic;
+  text-decoration: underline rgb(34, 33, 33);
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .metier {
+      font-size: 15px;
+    }
+  }
+.description {
+  color: white;
+  font-style: italic;
+  text-decoration: underline rgb(34, 33, 33);
+  font-size: 15px;
+}
+
+.infos {
+  text-align: center;
+}
+
+img.displayed-p {
+  display: block;
+  margin-left: -10px;
+  margin-right: auto;
+  border-radius: 100px;
+  border-left: red solid 4px;
+  height: 200px;
+  width: 200px
+}
+
+@media (max-width: 600px) {
+    .img.displayed-p {
+        height: 50px;
+        width: 50px;
+    }
+  }
+
+img.displayed-p:hover {
+  display: block;
+  margin-left: -10px;
+  margin-right: auto;
+  filter: drop-shadow(10px 10px 15px rgb(255, 0, 0));
+}
+
+
+
+/*Fin CSS pour la page team*/
+
+/*CECI EST LE CSS DU BANDEAU*/
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .main-nav div:not(:first-child) {
+    
+    display: flex;
+    width: 150px;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: black;
+    background: url(photo/boutonnoir.png) no-repeat;
+    color: white;
+    text-decoration: none;
+    float: left;
+    background-position-y: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-nav div:not(:first-child):hover {
+    background: url(photo/boutonnoir2.png) no-repeat;
+    background-position-y: center;
+  }
+  
+  span {
+    color: white;
+    text-align: center;
+    text-decoration:underline black;
+  }
+
+/*CECI EST LA FIN DU CSS DU BANDEAU*/
+
+/*début css footer*/
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  
+  footer {
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  
+  .footer div{flex-basis: 20%;}
+  
+  /*fin css footer*/

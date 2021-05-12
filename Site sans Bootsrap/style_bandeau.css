@@ -1,0 +1,55 @@
+body { margin: 0%;
+  background-color: black;
+}
+
+/*CECI EST LE CSS DU BANDEAU*/
+.main-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-nav div:not(:first-child) {
+  
+  display: flex;
+  width: 150px;
+  line-height: 80px;
+  vertical-align: middle;
+  background-color: black;
+  background: url(photo/boutonnoir.png) no-repeat;
+  color: white;
+  text-decoration: none;
+  float: left;
+  background-position-y: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-nav div:not(:first-child):hover {
+  background: url(photo/boutonnoir2.png) no-repeat;
+  background-position-y: center;
+}
+
+span {
+  color: white;
+  text-align: center;
+  text-decoration:underline black;
+}
+
+/*CECI EST LA FIN DU CSS DU BANDEAU*/
+/*CECI EST LA FIN DU CSS DU BANDEAU*/
+
+/*CECI EST LE CSS DU FOOTER*/
+
+
+
+
+
+
+
+
+
+
+
+/*CECI EST LA FIN DU CSS DU FOOTER*/
