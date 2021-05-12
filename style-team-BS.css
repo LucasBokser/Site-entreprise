@@ -35,8 +35,8 @@
 }
 
 .btn-secondary:hover {
-    background-color: white;
-    color: #a10c0ced;
+    background-color: rgb(15, 8, 77);
+    color: #ffffffed;
     border: 2px solid white
 }
 
